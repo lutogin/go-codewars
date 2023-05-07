@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/findTheNextPerfectSquare"
+	"codewars/reviews-tasks/reverseLinkedList"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(findTheNextPerfectSquare.Run(114))
+	fmt.Println(reverseLinkedList.Run(reverseLinkedList.GetExampleData()))
 }
