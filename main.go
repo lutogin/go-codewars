@@ -1,7 +1,7 @@
 package main
 
 import (
-	"codewars/reviews-tasks/reverseLinkedList"
+	"codewars/reviews/reverseLinkedList"
 	"fmt"
 )
 
