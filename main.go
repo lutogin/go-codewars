@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/reviews/reverseLinkedList"
+	"codewars/leetcode/diagonalSum"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(reverseLinkedList.Run(reverseLinkedList.GetExampleData()))
+	fmt.Println(diagonalSum.Run(diagonalSum.GetSample3()))
 }
