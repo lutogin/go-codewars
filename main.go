@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/leetcode/diagonalSum"
+	"codewars/codewars/persistentBugger"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(diagonalSum.Run(diagonalSum.GetSample3()))
+	fmt.Println(persistentBugger.Run(999))
 }
