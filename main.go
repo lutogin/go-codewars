@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/codewars/persistentBugger"
+	"codewars/codewars/rot13"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(persistentBugger.Run(999))
+	fmt.Println(rot13.Run("ROT13 example."))
 }
