@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/codewars/rot13"
+	"codewars/codewars/snailSort"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(rot13.Run("ROT13 example."))
+	fmt.Println(snailSort.Run([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 }
