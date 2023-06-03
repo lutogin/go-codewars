@@ -1,10 +1,10 @@
 package main
 
 import (
-	"codewars/codewars/snailSort"
+	"codewars/codewars/maximumSubarraySum"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(snailSort.Run([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	fmt.Println(maximumSubarraySum.MaximumSubarraySum(maximumSubarraySum.GetTestedData()))
 }
